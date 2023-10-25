@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.maia.maiakotlin.HelloController">
+    <ImageView fx:id="screen" fitHeight="540"  fitWidth="700" />
+    <Button text="Haz algo" onAction="#onDoSomething"/>
+</VBox>
